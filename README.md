@@ -1,4 +1,4 @@
-# agentseo-dev
+# AgentSEO
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,13 +64,13 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AgentSEO provides a token-optimized SEO API designed for AI agents and developer workflows. It delivers compact SERP evidence for rank tracking, content gap analysis, local visibility, and supports AI search workflows via both REST and MCP interfaces. The service is built by Joy Technologies to enable seamless integration of search data into automated agents.
+AgentSEO is an SEO API for AI agents, developers, and automation workflows. Its REST API and MCP server support SERP analysis, keyword research, rank tracking, content gap analysis, local search visibility, and AI search visibility workflows. Self-service signup and an x-api-key are required; new accounts receive 100 one-time live credits without a credit card.
 
 **Areas:** SEO · AI · Search · API · DeveloperTools
 
-## agentseo-dev on APIs.io
+## AgentSEO on APIs.io
 
-Everything profiled for agentseo-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentseo-dev/](https://apis.io/providers/agentseo-dev/)** — or go straight to one of the APIs or properties below.
+Everything profiled for AgentSEO is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentseo-dev/](https://apis.io/providers/agentseo-dev/)** — or go straight to one of the APIs or properties below.
 
 ### APIs (24)
 
@@ -103,22 +103,54 @@ Everything profiled for agentseo-dev is published on APIs.io rather than in this
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Agentseo Dev Webhooks](https://apis.io/asyncapis/agentseo-dev/agentseo-dev-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentseo-dev-mcp.yml](https://apis.io/servers/agentseo-dev/agentseo-dev-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentseo Dev Agentic Access](https://apis.io/agentic-access/agentseo-dev/agentseo-dev-agentic-access/)
+- [AgentSEO Agentic Access](https://apis.io/agentic-access/agentseo-dev/agentseo-dev-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (56)
 
 The data models the API reads and writes.
 
+- [AiOverviewParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-ai-overview-params/)
+- [AiOverviewResponse](https://apis.io/schemas/agentseo-dev/agentseo-dev-ai-overview-response/)
 - [AiVisibilityPromptSetParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-ai-visibility-prompt-set-params/)
+- [AnalyzeSerpParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-analyze-serp-params/)
+- [AnalyzeSerpResponse](https://apis.io/schemas/agentseo-dev/agentseo-dev-analyze-serp-response/)
 - [BacklinksOpportunityFinderParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-backlinks-opportunity-finder-params/)
 - [BacklinksPageIntersectionParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-backlinks-page-intersection-params/)
 - [ContentActionPlanParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-content-action-plan-params/)
-- [PageIntersectionParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-page-intersection-params/)
-- [ProgrammaticTemplateParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-programmatic-template-params/)
+- [ContentDecayParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-content-decay-params/)
+- [ContentDecayResponse](https://apis.io/schemas/agentseo-dev/agentseo-dev-content-decay-response/)
+- [DomainCompetitorsParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-domain-competitors-params/)
+- [DomainIntersectionParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-domain-intersection-params/)
+- [DomainRankedKeywordsParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-domain-ranked-keywords-params/)
+- [DomainRelevantPagesParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-domain-relevant-pages-params/)
+- [DomainTrafficEstimateParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-domain-traffic-estimate-params/)
+- [ExtractParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-extract-params/)
+- [ExtractResponse](https://apis.io/schemas/agentseo-dev/agentseo-dev-extract-response/)
+- [JobStatusEnvelope](https://apis.io/schemas/agentseo-dev/agentseo-dev-job-status-envelope/)
+- [KeywordClusterParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-keyword-cluster-params/)
+- [KeywordClusterResponse](https://apis.io/schemas/agentseo-dev/agentseo-dev-keyword-cluster-response/)
+- [KeywordIdeasParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-keyword-ideas-params/)
+- [KeywordIdeasResponse](https://apis.io/schemas/agentseo-dev/agentseo-dev-keyword-ideas-response/)
+- [KeywordMetricsParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-keyword-metrics-params/)
+- [KeywordMetricsResponse](https://apis.io/schemas/agentseo-dev/agentseo-dev-keyword-metrics-response/)
+- [LlmMentionsParams](https://apis.io/schemas/agentseo-dev/agentseo-dev-llm-mentions-params/)
+- …and 31 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -130,32 +162,32 @@ Linked-data contexts for the provider's vocabulary.
 
 Spectral rulesets for the provider's contracts.
 
-- [agentseo-dev API Rules](https://apis.io/rules/agentseo-dev/agentseo-dev-rules/)
+- [AgentSEO API Rules](https://apis.io/rules/agentseo-dev/agentseo-dev-rules/)
 
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentseo Dev Authentication](https://apis.io/security/agentseo-dev/agentseo-dev-authentication/)
-- [Agentseo Dev Domain Security](https://apis.io/security/agentseo-dev/agentseo-dev-domain-security/)
+- [AgentSEO Authentication](https://apis.io/security/agentseo-dev/agentseo-dev-authentication/)
+- [AgentSEO Domain Security](https://apis.io/security/agentseo-dev/agentseo-dev-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentseo Dev Scopes](https://apis.io/scopes/agentseo-dev/agentseo-dev-scopes/)
+- [AgentSEO Scopes](https://apis.io/scopes/agentseo-dev/agentseo-dev-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentseo Dev Plans Pricing](https://apis.io/plans/agentseo-dev/agentseo-dev-plans-pricing/)
+- [AgentSEO Plans Pricing](https://apis.io/plans/agentseo-dev/agentseo-dev-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentseo Dev Rate Limits](https://apis.io/rate-limits/agentseo-dev/agentseo-dev-rate-limits/)
+- [AgentSEO Rate Limits](https://apis.io/rate-limits/agentseo-dev/agentseo-dev-rate-limits/)
 
 ## Where to find this API
 
@@ -176,18 +208,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 66.8** — exemplar · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 69.0** — exemplar · rubric 0.27.0 · scored 2026-11-11
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
-| Contract quality | 55.6 |
+| Contract quality | 62.9 |
 | Contract governance | 79.1 |
-| Operational transparency | 65.3 |
+| Operational transparency | 73.2 |
 | Developer ergonomics | 66.0 |
 | Access clarity | 63.7 |
 
-**Agent readiness 39.7** — agent-ready (gated down from agent-native)
+**Agent readiness 43.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -200,7 +232,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Error Semantics | documented (partial credit) |
 | OpenAPI Examples | — |
 | Rate Limit Signal | documented (partial credit) |
-| Event Surface Described | — |
+| Event Surface Described | unknown |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
@@ -212,6 +244,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
 
 **Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
 
@@ -221,7 +254,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for agentseo-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentSEO: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
