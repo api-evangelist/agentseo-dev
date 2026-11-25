@@ -66,7 +66,7 @@
 
 AgentSEO is an SEO API for AI agents, developers, and automation workflows. Its REST API and MCP server support SERP analysis, keyword research, rank tracking, content gap analysis, local search visibility, and AI search visibility workflows. Self-service signup and an x-api-key are required; new accounts receive 100 one-time live credits without a credit card.
 
-**Areas:** SEO · AI · Search · API · DeveloperTools
+**Areas:** SEO · Artificial Intelligence · Search · Developer Tools
 
 ## AgentSEO on APIs.io
 
@@ -208,23 +208,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 69.0** — exemplar · rubric 0.27.0 · scored 2026-11-11
+**Kin Score 64.3** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 62.9 |
-| Contract governance | 79.1 |
-| Operational transparency | 73.2 |
-| Developer ergonomics | 66.0 |
-| Access clarity | 63.7 |
+| Discoverability | 73.3 |
+| Contract quality | 65.9 |
+| Contract governance | 35.6 |
+| Operational transparency | 69.0 |
+| Developer ergonomics | 61.3 |
+| Access clarity | 69.8 |
 
-**Agent readiness 43.3** — agent-ready (gated down from agent-native)
+**Agent readiness 38.1** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -232,10 +232,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Error Semantics | documented (partial credit) |
 | OpenAPI Examples | — |
 | Rate Limit Signal | documented (partial credit) |
-| Event Surface Described | unknown |
-| Agent Skills | unknown |
+| Event Surface Described | yes |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | flavored (partial credit) |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -245,8 +245,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
-**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentseo-dev/](https://apis.io/providers/agentseo-dev/).
 
